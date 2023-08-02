@@ -1,0 +1,14 @@
+function2
+CODE:
+def s_reverse(str1):
+    rstr1 = ''
+    index = len(str1)
+    while index >0:
+        rstr1 += str1[index - 1]
+        index =  index - 1
+    return rstr1
+print(s_reverse('1234sbcd'))
+
+
+OUTPUT:
+dcbs4321
